@@ -37,6 +37,15 @@ public class Variable02 {
 		System.out.println(menu);
 		
 		System.out.println("Hello\tworld!\nWelcome");
+		
+		double db1 = 12.12; //실수형
+		double db2 = 0.1212e2; //0.1212 & 10의제곱 -> 12.12
+		float f1 = 12.12f; //float 타입에 실수 숫자값 저장할때는 뒤에 f를 붙인다.
+		
+		//논리형 참/거짓 true/false
+		boolean stop = true;
+		boolean start = false;
+		boolean isHungry = true;
 	}
 
 }
