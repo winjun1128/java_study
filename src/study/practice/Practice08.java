@@ -368,6 +368,7 @@ public class Practice08 {
 //		} else if (score < 70) {
 //		System.out.println("학점 F");
 //		}
+		int score = 95;
 		switch(score/10) {
 		case 10:
 		case 9:
