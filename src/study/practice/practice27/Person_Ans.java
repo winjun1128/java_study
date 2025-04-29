@@ -46,7 +46,18 @@ public class Person_Ans {
 	//생성자
 	//생성자 선언하지 않으면? 기본생성자 자동 생성
 	//Person(){}
+	
+	//생성자:객체가 생성될때 초기에 해야 할 일
 	Person_Ans(){
+//		name = null;
+//		gender = "남";	//초기화 값
+//		age = 0;
+//		height = 0;
+//		weight = 0;
+//		job = "무직";	//null 직업무
+//		bloodType = null;
+//		isHealthy = true;	//초기화 값
+//		isSleeping = false;
 	}
 	Person_Ans(String name,String gender,int age,
 			double height,double weight,String job,String bloodType, boolean isHealthy, boolean isSleeping){
