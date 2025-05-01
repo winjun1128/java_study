@@ -27,7 +27,6 @@ public class FinalMain {
 		if(myState == ConstantNumber.HEALTH_STATE_BAD) {
 			
 		}
-	
 	}
 
 }
