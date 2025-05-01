@@ -6,6 +6,14 @@ public class Point {
 	int math;
 	String name;
 	
+//	public Point() {
+//		
+//	}
+	
+//	private Point() {
+//		
+//	}
+	
 	//getter 값 가져오기(반환)
 	//get필드명
 	//setter 값 세팅(저장)
