@@ -17,4 +17,15 @@ public class BluetoothMike extends Mike {
 	public void check() {
 		System.out.println("기능 확인");
 	}
+	//가지고 있는 정보를 문자열로 리턴하기
+	public String toString() {
+		//return model+" "+price+" 유형:"+type+" 연결여부:"+(isConnect?"O":"X")
+//		String str = model+" "+price+" 유형:"+type+" 연결여부:"+(isConnect?"O":"X");
+		String str = String.format("%s 가격:%d 유형:%s 연결여부:%s",model,price,type,(isConnect ? "O":"X"));
+		return str;
+//		System.out.println(model+" "+price+" 유형:"+type+" 연결여부:"+(isConnect?"O":"X"));
+		//												  연결여부:false
+		//												  연결여부:연결안됨
+		//System.out.printf("%s 가격:%d 유형:%s 연결여부:%s",model,price,type,(isConnect ? "O":"X"));
+	}
 }
