@@ -18,19 +18,22 @@ public class FoodTruckMain {
 			switch(sel) {
 			case 1:
 				System.out.print("메뉴입력:");
-				selMenu = scanner.next();
+				scanner.nextLine();
+				selMenu = scanner.nextLine();
 				ft.prMenu(selMenu);
 				break;
 			case 2:
 				System.out.print("메뉴입력:");
-				selMenu = scanner.next();
+				scanner.nextLine();
+				selMenu = scanner.nextLine();
 				System.out.print("주문수량 입력:");
 				int count = scanner.nextInt();
 				ft.Order(selMenu, count);
 				break;
 			case 3:
 				System.out.print("메뉴입력:");
-				selMenu = scanner.next();		//nextLine()하면 김밥\n이 되는지?
+				scanner.nextLine();					//버퍼 비우기 위해 필요
+				selMenu = scanner.nextLine();		//nextLine()하면 김밥\n이 되는지?
 				System.out.print("재고추가수량 입력:");
 				int upStock = scanner.nextInt();
 				ft.setMenuStock(selMenu, upStock);
