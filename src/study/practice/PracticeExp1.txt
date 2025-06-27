@@ -1,0 +1,31 @@
+test1 start
+Test
+test1 try end
+test1 finally
+test2 start
+test2 catch
+test2 finally
+test3 start
+test3 catch
+test3 end
+test4 start
+test4 catch null
+test4 end
+test5 start
+----널포인인터예외-----
+/*******************************************/
+test1 start
+Test
+test1 try end
+test1 finally
+test2 start
+test2 catch
+test2 finally
+test3 start
+test3 catch
+test3 end
+test4 start
+test4 catch null
+test4 end
+test5 start
+----널포인인터예외-----
