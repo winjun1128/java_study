@@ -4,6 +4,11 @@ package study.db.v2;
 //DB 테이블에서 읽어온 데이터를 저장하는 역할
 //DTO (Data Transfer Object)
 public class Dept {
+	@Override
+	public String toString() {
+		return "Dept [deptno=" + deptno + ", dname=" + dname + ", loc=" + loc + "]";
+	}
+
 	int deptno;
 	String dname;
 	String loc;
